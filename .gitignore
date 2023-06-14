@@ -1,0 +1,49 @@
+# Environment
+# .env # note: you should gitignore your .env
+
+# JS
+yarn-error.log
+
+# Vendors
+node_modules/
+
+# Database
+*.sqlite
+*.db
+*.db-journal
+
+# Transient Data
+storage
+.session-data*
+.session-data
+
+# TypeScript
+run.js
+*.tsbuildinfo
+lib/**/*
+
+# Temp Files
+cache/
+*.zip
+
+# Runtime data
+pids
+*.pid
+*.seed
+*.pid.lock
+
+# Editors
+.idea/
+.vscode/
+.eslintcache
+
+# Logs
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+*.dump
+
+# OS metadata
+.DS_Store
+Thumbs.db
